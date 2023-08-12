@@ -1,0 +1,16 @@
+/*Configurando os ícones do  linkedin e github*/
+.fa-brands {
+    font-size: 2.5rem;
+    color: hsl(0, 2%, 56%);
+    /*color:rgba(0, 128, 0, 0.664);*/
+    /*gap: 5rem;*/
+    letter-spacing: 50%;
+
+
+
+}
+
+.fa-brands:hover {
+    color: blue;
+
+}
