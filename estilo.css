@@ -1,3 +1,20 @@
+body {
+    background-color: rgba(153, 175, 240, 0.849);
+    margin: 1rem 1rem 2rem 1rem;
+
+}
+
+.topo {
+    text-align: center;
+    margin-bottom: 4rem;
+
+}
+
+.topo h1 {
+    color: blue;
+
+}
+
 /*Configurando os ícones do  linkedin e github*/
 .fa-brands {
     font-size: 2.5rem;
@@ -13,4 +30,41 @@
 .fa-brands:hover {
     color: blue;
 
+}
+
+section {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+h2 {
+    color: blue;
+    
+}
+
+
+.cargo, .nome_curso {
+    font-weight: bold;
+    
+}
+
+.cargo p {
+    margin-top: 1rem;
+
+
+}
+
+@media screen and (max-width: 800px) {
+    .topo {
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
+    
+    section {
+       margin: auto;
+    }
+    
 }
